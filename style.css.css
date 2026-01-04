@@ -1,0 +1,126 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    text-align: center;
+}
+
+h1, h2 {
+    margin-top: 20px;
+}
+
+.input-container {
+    width: 60%;
+    margin: auto;
+    background: white;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+input {
+    width: 70%;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    cursor: pointer;
+    border: none;
+    background: #0aa1c0;
+    color: white;
+    border-radius: 4px;
+}
+
+.filters {
+    margin: 15px 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    width: 60%;
+    margin: auto;
+}
+
+li {
+    background: white;
+    padding: 10px;
+    margin: 8px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 4px;
+}
+
+.done {
+    text-decoration: line-through;
+    color: red;
+}
+
+.icons button {
+    background: transparent;
+    color: black;
+}
+
+.actions {
+    margin-top: 20px;
+}
+
+.danger {
+    background: #e74c3c;
+}
+
+/* Overlay */
+.overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.5);
+    z-index: 10;
+}
+
+/* Modal */
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    width: 350px;
+    padding: 25px;
+    border-radius: 8px;
+    z-index: 20;
+}
+
+.modal input {
+    width: 100%;
+    padding: 8px;
+    margin: 15px 0;
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    padding: 8px 16px;
+    border-radius: 4px;
+    color: white;
+}
+
+.save {
+    background: #0aa1c0;
+}
+
+.confirm {
+    background: #bfc1c2;
+    color: black;
+}
+
+.cancel {
+    background: #e74c3c;
+}
+
+.hidden {
+    display: none;
+}
